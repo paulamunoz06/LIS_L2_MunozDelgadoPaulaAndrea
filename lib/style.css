@@ -1,0 +1,117 @@
+/* Estilo general del cuerpo de la página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/* Encabezados sin negrilla */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Contenedor del título principal */
+.title-container{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 10px 20px;
+  color: #6d4bc5;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Contenedor de tarjetas en formato de cuadrícula */
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Contenedor superior con estilos generales */
+.top-container{
+  background-color: #f9e9da;
+  color: #6d4bc5;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+/* Estilos básicos de las tarjetas */
+.card{
+  border-radius: 12px;
+  font-size: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* Título dentro de la tarjeta */
+.card-Title{
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Cuerpo del texto dentro de la tarjeta */
+.card-Body{
+  margin: 1px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* Imagen dentro de la tarjeta */
+.card-img{
+  width: 70px;
+}
+
+/* Fondo para Go */
+#center-go{
+  background-color: #c95f85;
+  text-align: right;
+  color: #fbd5e2;
+  border: 3px solid #b1466d;
+}
+
+/* Fondo para Java */
+#center-java{
+  background-color: #cbe79c;
+  text-align: center;
+  color: #f7ffea;
+  border: 3px solid #bbd091;
+}
+
+/* Fondo para C++ */
+#center-cpp{
+  background-color: #a2b9e5;
+  text-align: left;
+  color: #ecf3ff;
+  border: 3px solid #85a1d4;
+}
+
+/* Fondo para JavaScript */
+#center-javaScript{
+  background-color: #a2b9e5;
+  text-align: left;
+  color: #ecf3ff;
+  border: 3px solid #85a1d4;
+}
+
+/* Fondo para Swift */
+#center-swift{
+  background-color: #cbe79c;
+  text-align: center;
+  color: #f7ffea;
+  border: 3px solid #bbd091;
+}
+
+/* Fondo para TypeScript */
+#center-typescript{
+  background-color: #c95f85;
+  text-align: right;
+  color: #fbd5e2;
+  border: 3px solid #b1466d;
+}
